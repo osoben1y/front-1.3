@@ -1,139 +1,119 @@
 <!DOCTYPE html>
 <html lang="uz">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gitpod - Get Started</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevLaunch | Boshlash</title>
+  <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-    <main class="container">
-        <h1 class="main-title">Get started now</h1>
+  <section class="layout__container">
+    <h1 class="layout__title">Dasturga kirish</h1>
 
-        <div class="cards-wrapper">
-            <div class="card git-repo-card">
-                <h2 class="card-title">Connect Git repository</h2>
-                <p class="card-description">
-                    Select a Git provider to start with an existing project from any Git context.
-                </p>
-                <div class="button-group">
-                    <button class="btn btn-gitlab">
-                        <img src="./assets/GitLab.png" alt="GitLab Icon" class="icon">
-                        Continue with GitLab
-                    </button>
-                    <button class="btn btn-github">
-                        <img src="./assets/GitHub.png" alt="GitHub Icon" class="icon">
-                        Continue with GitHub
-                    </button>
-                    <button class="btn btn-bitbucket">
-                        <img src="./assets/Bit.png" alt="Bitbucket Icon" class="icon">
-                        Continue with Bitbucket
-                    </button>
-                </div>
-                <p class="prefix-text">Or prefix any GitLab, GitHub or Bitbucket URL with</p>
-                <div class="prefix-box">
-                    gitpod.io/#
-                </div>
-            </div>
-            <div class="card example-workspace-card">
-                <h2 class="card-title">Launch an example workspace</h2>
-                <p class="card-description">Dive into one of our example workspaces</p>
-                <div class="language-list">
-                    <div class="language-item">
-                        <img src="./assets/ts.png" alt="TypeScript Icon" class="lang-icon">
-                        <span class="lang-name">Node or TypeScript</span>
-                        <button class="btn btn-launch">Launch workspace</button>
-                    </div>
-                    <div class="language-item">
-                        <img src="./assets/py.png" alt="Python Icon" class="lang-icon">
-                        <span class="lang-name">Python</span>
-                        <button class="btn btn-launch">Launch workspace</button>
-                    </div>
-                    <div class="language-item">
-                        <img src="./assets/go.png" alt="Go Icon" class="lang-icon">
-                        <span class="lang-name">Go</span>
-                        <button class="btn btn-launch">Launch workspace</button>
-                    </div>
-                    <div class="language-item">
-                        <img src="./assets/rust.png" alt="Rust Icon" class="lang-icon">
-                        <span class="lang-name">Rust</span>
-                        <button class="btn btn-launch">Launch workspace</button>
-                    </div>
-                    <div class="language-item">
-                        <img src="./assets/java.png" alt="Java Icon" class="lang-icon">
-                        <span class="lang-name">Java</span>
-                        <button class="btn btn-launch">Launch workspace</button>
-                    </div>
-                    <div class="language-item">
-                        <img src="./assets/svelte.png" alt="Svelte Icon" class="lang-icon">
-                        <span class="lang-name">Svelte</span>
-                        <button class="btn btn-launch">Launch workspace</button>
-                    </div>
-                </div>
-            </div>
+    <div class="section__row">
+      <div class="block__option">
+        <h2 class="block__heading">Git havolasini ulash</h2>
+        <p class="block__description">Mavjud loyihani tanlash uchun provayderni belgilang</p>
+        <div class="block__buttons">
+          <button class="button__provider button__gitlab">
+            <img src="./assets/GitLab.png" alt="" class="icon__small" />
+            GitLab bilan davom etish
+          </button>
+          <button class="button__provider button__github">
+            <img src="./assets/GitHub.png" alt="" class="icon__small" />
+            GitHub bilan davom etish
+          </button>
+          <button class="button__provider button__bitbucket">
+            <img src="./assets/Bit.png" alt="" class="icon__small" />
+            Bitbucket bilan davom etish
+          </button>
         </div>
-    </main>
+        <p class="block__note">Yoki URL boshiga quyidagini qo‘shing:</p>
+        <div class="block__url">gitpod.io/#</div>
+      </div>
 
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-column">
-                <h3>Gitpod</h3>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Changelog</a></li>
-                    <li><a href="#">Self-Hosted</a></li>
-                    <li><a href="#">Gitpod vs GitHub Codespaces</a></li>
-                    <li><a href="#">Status</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h3>Developer</h3>
-                <ul>
-                    <li><a href="#">Getting started</a></li>
-                    <li><a href="#">Screencasts</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Documentation</a></li>
-                    <li><a href="#">Report a bug</a></li>
-                    <li><a href="#">Community</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h3>Company</h3>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Media Kit</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h3>Legal</h3>
-                <ul>
-                    <li><a href="#">Imprint</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-            </div>
+      <div class="block__option">
+        <h2 class="block__heading">Namuna ish muhitlari</h2>
+        <p class="block__description">Misol loyihalarni sinab ko‘ring</p>
+        <div class="stack__list">
+          <div class="stack__item">
+            <img src="./assets/ts.png" alt="" class="stack__icon" />
+            <span class="stack__label">TypeScript / Node</span>
+            <button class="button__launch">Boshlash</button>
+          </div>
+          <div class="stack__item">
+            <img src="./assets/py.png" alt="" class="stack__icon" />
+            <span class="stack__label">Python</span>
+            <button class="button__launch">Boshlash</button>
+          </div>
+          <div class="stack__item">
+            <img src="./assets/go.png" alt="" class="stack__icon" />
+            <span class="stack__label">Go</span>
+            <button class="button__launch">Boshlash</button>
+          </div>
+          <div class="stack__item">
+            <img src="./assets/rust.png" alt="" class="stack__icon" />
+            <span class="stack__label">Rust</span>
+            <button class="button__launch">Boshlash</button>
+          </div>
+          <div class="stack__item">
+            <img src="./assets/java.png" alt="" class="stack__icon" />
+            <span class="stack__label">Java</span>
+            <button class="button__launch">Boshlash</button>
+          </div>
+          <div class="stack__item">
+            <img src="./assets/svelte.png" alt="" class="stack__icon" />
+            <span class="stack__label">Svelte</span>
+            <button class="button__launch">Boshlash</button>
+          </div>
         </div>
-        <div class="footer-bottom">
-            <div class="copyright">
-                <img src="" alt="" class="gitpod-logo">
-                <span>Copyright &copy; 2021 Gitpod</span>
-            </div>
-            <div class="social-icons">
-                <a href="" aria-label="Twitter">
-                    <img src="" alt="" class="social-icon">
-                </a>
-                <a href="" aria-label="GitHub">
-                    <img src="" alt="" class="social-icon">
-                </a>
-                <a href="" aria-label="Discord">
-                    <img src="" alt="" class="social-icon">
-                </a>
-            </div>
-        </div>
-    </footer>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer__wrapper">
+    <div class="footer__columns">
+      <div class="footer__block">
+        <h3>Platforma</h3>
+        <ul>
+          <li><a href="">Asosiy</a></li>
+          <li><a href="">Xususiyatlar</a></li>
+          <li><a href="">Narxlar</a></li>
+          <li><a href="">Yangiliklar</a></li>
+          <li><a href="">O‘rnatish</a></li>
+          <li><a href="">Gitpod VS Codespaces</a></li>
+          <li><a href="">Holat</a></li>
+        </ul>
+      </div>
+      <div class="footer__block">
+        <h3>Dasturchi</h3>
+        <ul>
+          <li><a href="">Qo‘llanma</a></li>
+          <li><a href="">Video darslar</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Hujjatlar</a></li>
+          <li><a href="">Xatolik xabari</a></li>
+          <li><a href="">Jamiyat</a></li>
+        </ul>
+      </div>
+      <div class="footer__block">
+        <h3>Kompaniya</h3>
+        <ul>
+          <li><a href="">Biz haqimizda</a></li>
+          <li><a href="">Bo‘sh ish o‘rinlari</a></li>
+          <li><a href="">Kontakt</a></li>
+          <li><a href="">Media</a></li>
+        </ul>
+      </div>
+      <div class="footer__block">
+        <h3>Huquqiy</h3>
+        <ul>
+          <li><a href="">Imprint</a></li>
+          <li><a href="">Shartlar</a></li>
+          <li><a href="">Maxfiylik</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
